@@ -57,3 +57,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#ajustes de seguridad por actualizacion de gemas
+gem "activesupport", ">= 6.0.3.1"
+gem "actionpack", ">= 6.0.3.1"
+gem "activestorage", ">= 6.0.3.1"
+gem "actionview", ">= 6.0.2.2"
